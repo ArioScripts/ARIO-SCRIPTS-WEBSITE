@@ -29,11 +29,9 @@ jobs:
           node-version: 24
 
       - name: Install dependencies
-        working-directory: ario-scripts
         run: npm install
 
-      - name: Build website
-        working-directory: ario-scripts
+      - name: Build Next.js
         run: npm run build
 
       - name: Setup Pages
@@ -42,7 +40,7 @@ jobs:
       - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ario-scripts/dist
+          path: ./out
 
       - name: Deploy
         id: deployment
