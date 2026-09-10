@@ -1,0 +1,1 @@
+export default function Unauthorized(){return <main className="mx-auto max-w-xl px-5 py-32 text-center"><h1 className="text-5xl font-black">Unauthorized</h1><p className="mt-4 text-white/50">You do not have permission to access this page.</p></main>}
