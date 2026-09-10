@@ -45,7 +45,7 @@ Scripts can be organized into different categories such as:
 
 Visit the official website:
 
-**https://arioscripthub.lovable.app**
+Website is being built please be patient 
 
 Browse scripts, search for what you need, and access them directly from the website.
 
